@@ -1,0 +1,35 @@
+
+        body {
+            background-color: blanchedalmond;
+            color: saddlebrown;    
+        }
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        .navbar{
+            
+            text-align: center;
+           
+            
+        }
+        .navbar a{
+            padding: 30px;
+            padding-bottom: 10px;
+            font-size: 15px;
+            color: saddlebrown;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .navbar a:hover {
+            color: blanchedalmond;
+            background-color: saddlebrown;
+            box-shadow: 0 0 20px saddlebrown;     
+        }
+        h7{
+            color: blanchedalmond;
+            background-color: saddlebrown;
+        }
+        p{
+            text-align: center;
+        }
+ 
