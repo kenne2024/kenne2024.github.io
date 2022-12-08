@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Survey</title>
 </head>
 <body>
     <h7>WorldFacts10</h7>
@@ -13,5 +13,54 @@
         <a href="./index.html">Home</a>
     </div> 
     <h1>Survey</h1>
+    <p>If you're interested, fill in this survey!</p>
+    <form id="survey-form">
+        <div class="form-control">
+
+            <label id="name-label">Name:</label>
+            <input id="name" type="text" placeholder="Ex: John" required></input>
+            </div>
+            <br>
+        <label id="email-label"> Email:</label>
+        <input id="email" type="email" placeholder="Ex: Apple@gmail.com" required></input>
+        <br>
+        <label id="number-label">Age:</label>
+        <input id="number" type="number" min="18" max="130" placeholder="ex: 51"></input>
+         <h4>Have you ever traveled out the country?</h4>
+        <select id="dropdown">
+        <option></option>
+        <option>Yes</option>
+        <option>No</option>
+        <option>Not sure</option>
+        </select>
+        <h4>If Yes, how often do you travel?</h4>
+        <label>Often
+        <input type="radio" name="radio-group" value="Often"/>
+        </label>
+        <label>Sometimes
+        <input type="radio" name="radio-group" value="Sometimes"/>
+        </label>
+        <label>Rarely
+        <input type="radio" name="radio-group" value="Rarely"/>
+        </label>
+        <br>
+        <h4>If you haven't, would like to travel one day?</h4>
+        <select id="dropdown">
+            <option></option>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Not sure</option>
+            </select>
+        <h4>If you've traveled out of the country before, which contry/countries have you visited?</h4>
+        <textarea></textarea>
+        <br>
+        <h4>Name 5 countries that you would like to visit?</h4>
+        <textarea></textarea>
+        <br>
+        <h4>Name 5 countries that you wouldn't like to visit?</h4>
+        <textarea></textarea>
+        <br>
+        <button id="submit" type="submit">Submit</button>
+      </form>
 </body>
 </html>
